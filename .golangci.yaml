@@ -1,0 +1,11 @@
+run:
+  concurrency: 4
+  timeout: 1m
+
+output:
+  format: github-actions
+
+linters:
+  enable:
+    - gosec
+    - gomnd
